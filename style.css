@@ -7,11 +7,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .orange-color {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
 }
 
@@ -25,13 +29,14 @@ section {
 }
 
 .link-button {
-
     text-decoration: none;
-    background-image: linear-gradient(orange tomato);
-    padding: 10 40;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
     color: rgb(230, 215, 215);
     font-weight: 700;
     border-radius: 5px;
+    /* border: 10px solid gray; */
+    /* background-color: black; */
 }
 
 .top-banner {
@@ -39,8 +44,37 @@ section {
     background-repeat: no-repeat;
 }
 
-.Dream-big {
+.dream-big {
     background-image: url(jhankar/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experiece-area {
+    background-image: url(jhankar/exp-bg.png);
+    background-repeat: no-repeat;
+    margin: 50px 0px;
+    background-position: left center;
+}
+
+.experience-item {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0px 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    width: 50%;
+    text-align: justify;
+}
+
+#full-stuck-developer {
+    border-left: 7px solid red;
+}
+
+#baby-web-developer {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
